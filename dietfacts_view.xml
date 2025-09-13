@@ -45,7 +45,7 @@
    </field>
    </record>
    
-          <record id="product.product_template_action_dietfacts" model="ir.actions.act_window">
+          <record id="product_template_action_dietfacts" model="ir.actions.act_window">
             <field name="name">Diet Items</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">product.template</field>
@@ -122,9 +122,9 @@
    </record>
 
 
-         <menuitem action= "product.product_template_action_dietfacts"
+         <menuitem action="product_template_action_dietfacts"
             id="menu_product_template_action_dietfacts"
-            parent="base.menu_sales" sequence= "14" />
+            parent="base.menu_sales" sequence="14"/>
          
          <menuitem action= "meal_action_dietfacts"
             id="menu_meal_action_dietfacts"
