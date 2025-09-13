@@ -176,7 +176,7 @@
             parent="sale.sale_menu_root" sequence="16"/>
             
         <!-- Report Template -->
-        <template id="product.nutrition">
+        <template id="nutrition">
         <t t-call="report.html_container">
           <t t-foreach="docs" t-as="o">
             <t t-call="report.external_layout">
@@ -210,8 +210,8 @@
             <report id="dietfacts_product" model="product.template"
                string="Nutrition Products"
                report_type="qweb-pdf"
-                name="product.nutrition"
-                file="product.nutrition"/>
+                name="dietfacts.nutrition"
+                file="dietfacts.nutrition"/>
 
       
    </data>
